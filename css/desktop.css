@@ -1,0 +1,114 @@
+body {
+  font-family: Arial;
+  margin-top: 90px;
+  margin: 0;
+  background-image: src "background/print1.jpg";
+}
+
+.navbar {
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  margin-left: 0%;
+  width: 90%;
+  text-decoration: none;
+  font-size: 4vw;
+}
+.navbar2 {
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  margin-left: 50%;
+  width: 90%;
+  font-size: 1vw;
+}
+
+/* Create two equal columns that floats next to each other */
+.columntl {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 7vw;
+  box-sizing: border-box;
+  color: white;
+  padding-top: 10px;
+}
+.columntr {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 7vw;
+  box-sizing: border-box;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.rowte:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.rowte {
+  text-decoration: none;
+}
+
+/* Create three equal columns that floats next to each other */
+
+/* Should be removed. Only for demonstratio
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cool {
+  background-image: src "pictures/cool.jpg";
+}
+
+.maintitle {
+  margin-top: 8vw;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 2vw;
+}
+.mainsub {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 2.5vw;
+}
+
+.gallery {
+  margin-top: 1.5vw;
+  border: 0.5vw solid #ccc;
+  float: left;
+  text-align: center;
+  width: 30.5vw;
+}
+.gallery:hover {
+  border: 1vw solid #777;
+}
+
+.gallery img {
+  width: 30.5vw;
+  height: auto;
+}
+
+.desc {
+  padding: 0.5vw;
+  text-align: center;
+  width: 30.5vw;
+}
+.maintext {
+  color: black;
+  font-size: 2vw;
+  box-shadow: 4px 4px 4px 4px;
+}
+code {
+  color: black;
+  background-color: rgb(94, 94, 94);
+  padding: 2px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

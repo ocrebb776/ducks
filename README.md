@@ -1,3 +1,3 @@
 # site_2
  
-https://ocrebb776.github.io/ducks/
+https://ocrebb776.github.io/ducks/index.html
